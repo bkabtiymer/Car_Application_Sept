@@ -15,7 +15,7 @@ public class CarApp {
         Scanner input = new Scanner(System.in);
         ArrayList<Car> carArray = new ArrayList<>();
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             Car car = new Car();//Create an instance of car inside the for-loop
             System.out.println("Enter a Car Make");
             carClass = input.nextLine();
